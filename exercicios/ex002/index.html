@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interagindo com um botão</title>
+
+    <style>
+        body {
+            font: 12pt Arial;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16pt;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- ex002 - Interagindo com um botão -->
+    <h1>Interagindo com um botão</h1>
+    <button onclick="clicou()">Clica em mim!</button>
+
+    <script>
+        function clicou() {
+            alert('Você clicou no botão!');
+        }
+    </script>
 </body>
 </html>
